@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.content-container {
+    p,
+    ul,
+    ol,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply mb-3;
+    }
+}
+
+input,
+textarea {
+    @apply appearance-none block w-full lg:w-1/2 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;
+}
+
+input[type="submit"] {
+    @apply bg-ffa-blue text-white focus:bg-ffa-dark cursor-pointer;
+}
+
+.wpcf7-not-valid-tip {
+    @apply mb-3;
+}

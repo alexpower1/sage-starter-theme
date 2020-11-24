@@ -1,3 +1,5 @@
-<div class="page-header">
-  <h1>{!! App::title() !!}</h1>
-</div>
+<div class="container">
+  @include('components.typography.primary-heading', [
+    'text' => App::title()
+  ])
+</div> 
