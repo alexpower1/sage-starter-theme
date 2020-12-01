@@ -12,17 +12,34 @@
     h4,
     h5,
     h6 {
-        @apply mb-3;
+        @apply mb-3 font-inter;
     }
+
+    p,
+    li {
+        @apply text-lg text-ffa-dark;
+    }
+
+    li {
+        @apply list-disc list-inside;
+    }
+
+    a {
+        @apply text-ffa-blue underline;
+    }
+}
+
+label {
+    @apply font-inter font-bold;
 }
 
 input,
 textarea {
-    @apply appearance-none block w-full lg:w-1/2 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;
+    @apply font-inter appearance-none block w-full lg:w-1/2 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;
 }
 
 input[type="submit"] {
-    @apply bg-ffa-blue text-white focus:bg-ffa-dark cursor-pointer;
+    @apply font-inter font-bold bg-green-600 text-white focus:bg-ffa-dark cursor-pointer rounded-none transition duration-200 hover:bg-green-800 hover:text-gray-200;
 }
 
 .wpcf7-not-valid-tip {
