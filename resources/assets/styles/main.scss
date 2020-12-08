@@ -33,15 +33,23 @@ label {
     @apply font-inter font-bold;
 }
 
-input,
-textarea {
-    @apply font-inter appearance-none block w-full lg:w-1/2 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;
-}
+.wpcf7 {
+    p {
+        .ajax-loader {
+            @apply hidden;
+        }
+    }
 
-input[type="submit"] {
-    @apply font-inter font-bold bg-green-600 text-white focus:bg-ffa-dark cursor-pointer rounded-none transition duration-200 hover:bg-green-800 hover:text-gray-200;
-}
+    input,
+    textarea {
+        @apply font-inter appearance-none block w-full lg:w-1/2 text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white;
+    }
 
-.wpcf7-not-valid-tip {
-    @apply mb-3;
+    input[type="submit"] {
+        @apply font-inter font-bold bg-green-600 text-white focus:bg-ffa-dark cursor-pointer rounded-none transition duration-200 hover:bg-green-800 hover:text-gray-200;
+    }
+
+    .wpcf7-not-valid-tip {
+        @apply mb-3;
+    }
 }

@@ -3,9 +3,10 @@
   <div class="flex justify-center align-center">
     <img src="<?= get_the_post_thumbnail_url() ?>" alt="About">
   </div>
-  @endif
 
   @include('components.general.spacer')
+  @endif
+
 
   @if(get_field('show_heading_section'))
 

@@ -1,6 +1,3 @@
-<pre>
-    <?php var_dump($post_1) ?>
-</pre>
 <div class="flex flex-col lg:flex-row -mx-3">
     <div class="flex flex-wrap w-full lg:w-1/2">
         <div class="w-full h-64 lg:h-96 px-3 pb-5">
